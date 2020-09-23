@@ -7,3 +7,33 @@
   width: 960px;
   background-color: $white;
 }
+
+.person {
+  text-align: center;
+
+}
+
+.about{
+  margin-bottom: 20px;
+  width: 900px;
+}
+ul li{
+  display: flex;
+  margin: 20px;
+  .education{
+    display: block;
+    margin: 10px;
+  }
+}
+
+.content{
+  margin-left: 60px;
+  background-color: $gray;
+  padding: 10px;
+  width: 800px;
+  p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+}
